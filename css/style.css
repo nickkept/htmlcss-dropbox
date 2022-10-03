@@ -11,6 +11,7 @@ nav{
 
 header {
     background-color: #B4D0E7;
+    margin-bottom: 8rem;
 }
 
 header .container-big{
@@ -34,17 +35,24 @@ header i {
 h1{
     font-size: 5rem;
 }
+h2{
+    font-size: 2.5rem;
+}
 
+h4{
+    padding: 1rem 0;
+}
 p{
     font-size: 1rem;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-}
+
 .container-big{
     width: 1100px;
+    margin: 0 auto;
+}
+.container-small{
+    width: 920px;
     margin: 0 auto;
 }
 .nav-wrapper{
@@ -93,7 +101,7 @@ button{
 }
 
 .btn-big{
-
+    padding: 1rem 2.5rem;
 }
 
 .btn-small{
@@ -120,3 +128,91 @@ img{
     flex-basis: 70%;
 }
 
+.checkmark {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.container-check {
+    display: inline-block;
+    position: relative;
+    padding: 0 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checks-container{
+    padding: 3rem 0;
+}
+
+.colonne{
+    display: flex;
+    column-gap: 2.3rem;
+}
+
+.col1{
+    border: 1px solid darkgray;
+    flex-basis: 33%;
+}
+.col2{
+    border: 1px solid darkgray;
+    flex-basis: 33%;
+}
+.col3{
+    border: 1px solid darkgray;
+    flex-basis: 33%;
+}
+
+.title-col {
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid darkgray;
+}
+.inner-col{
+    padding: 1rem 1.5rem;
+}
+.gray{
+    color: darkgray;
+}
+
+.inner-col h4{
+    padding-bottom: 0.4rem;
+}
+
+ul{
+    padding: 2rem 0;
+    
+    list-style: none;
+}
+
+li{
+    padding: 0.7rem 0;
+}
+.icons{
+    display: flex;
+}
+
+.space-p{
+    padding: 2rem 0;
+}
+
+.hr-type{
+    height: 1px;
+    width: 20%;
+    background-color: darkgray;
+}
+.sub-title{
+    padding-top:  2rem;
+}
+
+.icn{
+    color: #0161FF;
+}
