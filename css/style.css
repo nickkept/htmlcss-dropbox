@@ -104,6 +104,9 @@ button{
     padding: 1rem 2.5rem;
 }
 
+.btn-mid{
+    padding: 0.5rem 1rem;
+}
 .btn-small{
     padding: 0.5rem;
 }
@@ -111,7 +114,11 @@ button{
     background-color: #0161FF;
 
 }
-
+.btn-black{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 .title-subsection{
     display: flex;
 }
@@ -156,6 +163,7 @@ img{
 .colonne{
     display: flex;
     column-gap: 2.3rem;
+    padding-bottom: 2.3rem;
 }
 
 .col1{
@@ -215,4 +223,33 @@ li{
 
 .icn-blue{
     color: #0161FF;
+}
+.inner-blw{
+    display: flex;
+}
+.below-columns{
+    border: 1px solid darkgray;
+}
+
+.col1-blw{
+    padding: 1.5rem 1.5rem;
+    flex-basis: 70%;
+}
+.col2-blw{
+    padding: 1.5rem 1.5rem;
+    flex-basis: 30%;
+}
+
+.col1-blw p{
+    padding: 2.5rem 0;
+    
+}
+.contact-drop{
+    display: flex;
+}
+.contact-drop h3{
+    padding: 2rem 0;
+}
+.col2-blw p{
+    padding-bottom: 2rem;
 }
