@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 nav{
     background-color: antiquewhite;
@@ -55,6 +58,12 @@ p{
     width: 920px;
     margin: 0 auto;
 }
+
+.container-bigger{
+    width: 100vw;
+    margin: 0 auto;
+}
+
 .nav-wrapper{
     display: flex;
     justify-content: space-between;
@@ -128,6 +137,7 @@ button{
 }
 
 img{
+    display: block;
     width: 100%;
     height: auto;
 }
@@ -236,7 +246,7 @@ li{
     flex-basis: 70%;
 }
 .col2-blw{
-    padding: 1.5rem 1.5rem;
+    padding: 1.5rem 0.5rem;
     flex-basis: 30%;
 }
 
@@ -246,10 +256,84 @@ li{
 }
 .contact-drop{
     display: flex;
+    padding-bottom: 5rem;
 }
 .contact-drop h3{
     padding: 2rem 0;
 }
 .col2-blw p{
     padding-bottom: 2rem;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+    column-gap: 2.5rem;
+    padding-bottom: 8rem;
+}
+
+.card{
+    flex-basis: 30%;
+    row-gap: 0.5rem;
+
+}
+.rows{
+    padding-bottom: 6rem;
+}
+
+.container-small h2{
+    padding-bottom: 2rem;
+}
+
+.card h3 {
+    padding: 1rem 0;
+}
+
+.blank-space{
+display: flex;
+}
+
+.blank-space .col1-blw{
+    padding: 0;
+}
+
+.blank-space p {
+    padding-top:  0;
+    padding-bottom: 5rem;
+}
+
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col1-container{
+    display: flex;
+    flex-basis: 33.3%;
+    
+}
+.col2-container{
+    flex-basis: 33.3%;
+}
+.col3-container{
+    flex-basis: 33.3%;
+}
+
+.img-container img{
+    aspect-ratio: 1 / 1;
+    padding: 25px;
+    filter: invert(1);
+}
+.img1{
+    background-color: lightgreen;
+    flex-basis: 50%;
+}
+.img2{
+    flex-basis: 50%;
+}
+.img3{
+    flex-basis: 50%;
+}
+.img4{
+    flex-basis: 50%;
 }
