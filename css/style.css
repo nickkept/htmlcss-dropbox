@@ -8,8 +8,8 @@ body{
 }
 
 nav{
-    background-color: antiquewhite;
-    padding: 1rem;
+    
+    padding: 0 1rem ;
 }
 
 header {
@@ -22,6 +22,10 @@ header .container-big{
     top: 70px
 }
 
+footer{
+    background-color: black;
+    padding-bottom: 5rem;
+}
 header h1{
     padding-top: 1rem;
     padding-bottom: 3rem;
@@ -60,13 +64,21 @@ p{
 }
 
 .container-bigger{
-    width: 100vw;
-    margin: 0 auto;
+    background-color: #B4D0E7;
+    padding-bottom: 6rem;
 }
 
 .nav-wrapper{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    z-index: 11;
+    background-color: white;
+    padding: 0 1rem;
 }
 
 .links-logo{
@@ -123,6 +135,11 @@ button{
     background-color: #0161FF;
 
 }
+.btn-white{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1.5rem;
+}
 .btn-black{
     background-color: white;
     color: black;
@@ -136,6 +153,7 @@ button{
     flex-basis: 30%;
 }
 
+body i{padding-right: 0.5rem;}
 img{
     display: block;
     width: 100%;
@@ -278,6 +296,7 @@ li{
     row-gap: 0.5rem;
 
 }
+
 .rows{
     padding-bottom: 6rem;
 }
@@ -305,35 +324,181 @@ display: flex;
 
 .img-container{
     display: flex;
-    flex-wrap: wrap;
+    
 }
 .col1-container{
     display: flex;
+    flex-wrap: wrap;
     flex-basis: 33.3%;
-    
+    aspect-ratio: 1 / 1;
 }
 .col2-container{
     flex-basis: 33.3%;
+    background-color: #F5F5F5;
+    padding: 0 2rem  ;
+    aspect-ratio: 1 / 1;
+    overflow: auto;
+
 }
 .col3-container{
+    display: flex;
+    flex-wrap: wrap;
     flex-basis: 33.3%;
+    aspect-ratio: 1 / 1;
+}
+.col2-container img{
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    
+}
+.img-container .la-mia-immagine img {
+    display: block;
+    filter: invert(1);
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
+    padding: 4rem;
 }
 
-.img-container img{
-    aspect-ratio: 1 / 1;
-    padding: 25px;
-    filter: invert(1);
+.logo-container{
+    display: flex;
+    padding-bottom: 3rem;
+
 }
 .img1{
-    background-color: lightgreen;
-    flex-basis: 50%;
+    background-color: #A2D39B;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    border: 0.5rem solid;
+    border-color: #cae0c3ad
 }
 .img2{
-    flex-basis: 50%;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: #60092B;
 }
 .img3{
-    flex-basis: 50%;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: #0093CE;
 }
 .img4{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: #FF1B1C;
+}
+
+.img5{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: #D50120;
+}
+.img6{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    
+}
+.img7{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: #0D2481;
+}
+.img8{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: #FFD830;
+}
+
+.inner-col1{
     flex-basis: 50%;
+}
+
+.inner-col2{
+    flex-basis: 50%;
+}
+
+.col2-container p{
+    padding-top: 3rem; 
+}
+
+.sub-box h2{
+    padding: 0;
+    color: #60092B;
+}
+.sub-box{
+    display: flex;
+    column-gap: 15rem;
+}
+.column1{
+    flex-basis: 70%;
+}
+.column2{
+    flex-basis: 30%;
+    
+}
+
+.faq-box .hr-type{
+    height: 1px;
+    width: 100%;
+    background-color: darkgray;
+}
+
+.faq-box h2{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+.quest-container{
+    position: relative;
+}
+.faq-box p{
+    font-weight: bold;
+    padding: 2.5rem 0;
+}
+.faq-box i{
+    position: absolute;
+    right: 20px;
+}
+.faq-box{
+    padding-bottom: 6rem;
+}
+
+.row{
+    display: flex;
+}
+
+.col {
+    padding: 20px;
+    flex-grow: 1;   
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer li {
+    padding: 0.5rem;
+}
+
+.hr-style-footer{
+    
+    height: 1px;
+    width: 12%;
+    background-color: white;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+}
+
+.wht{color: white;}
+
+.ita{
+    margin-left: 25px;
+    padding-bottom: 4rem;
+}
+
+.big-hr{
+    
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    
 }
